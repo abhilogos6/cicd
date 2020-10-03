@@ -42,7 +42,7 @@
     - name: "Build-Setp - Login to remote Repository"
       docker_login:
         username: abhilogos6
-        password: "{{ docker_password }}"
+        password: "12Hil18h61113@6"
 
             
             
