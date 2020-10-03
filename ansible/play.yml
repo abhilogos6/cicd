@@ -7,7 +7,7 @@
   vars:
     repo_url: "https://github.com/abhilogos6/cicd.git"
     repo_dest: "/var/repository/"
-    image_name: "abhilogos6/cicd"
+    image_name: "abhilashr6001/cicd"
   tasks:
     
     - name: "Build-Setup - Docker Installation"
@@ -77,7 +77,7 @@
   hosts: dev
   become: true
   vars:
-    image_name: "abhilogos6/cicd"
+    image_name: "abhilashr6001/cicd"
     
   tasks:
     
